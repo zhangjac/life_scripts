@@ -8,7 +8,7 @@ function t1w_acpcfile = feAutoACPCalign(rawT1File, t1w_acpcfile)
 % Copyright 2014-2015 Franco Pestilli, Indiana University, pestillifranco@gmail.com
 
 % Load the file from disk
-ni = readFileNifti(rawT1file);
+ni = readFileNifti(rawT1File);
 
 % Make sure the file is aligned properly
 ni = niftiApplyCannonicalXform(ni);
